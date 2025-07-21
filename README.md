@@ -1,5 +1,5 @@
 # ir-health-monitor
-![should brace image](docs/eMedha_2.png)
+![should brace image](docs/eMEDHA.png)
 ## Overview
 
 **ir-health-monitor** is a cost-effective health monitoring system integrated into an adjustable shoulder brace for post-surgery recovery. It uses an ESP32 microcontroller to read physiological data from two sensors:
@@ -44,7 +44,7 @@ The ESP32 processes sensor data and sends it via WiFi to a remote server for mon
    - SparkFun MAX3010x Sensor Library
    - MLX90640 Library by Pololu
 3. Configure WiFi credentials and server URL in the code.
-4. Upload `esp32_spo2_skinTemp_breath_monitor.ino` to ESP32.
+4. Upload `codes/esp32_spo2_skinTemp_breath_monitor.ino` to ESP32.
 
 ---
 
